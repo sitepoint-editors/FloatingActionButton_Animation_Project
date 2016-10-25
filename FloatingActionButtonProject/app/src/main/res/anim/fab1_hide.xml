@@ -5,10 +5,10 @@
     <!--Move-->
     <translate
         android:duration="1000"
-        android:fromXDelta="-170%"
-        android:fromYDelta="-25%"
+        android:fromXDelta="170%" //Where you previously moved
+        android:fromYDelta="25%"//Where you previously moved
         android:interpolator="@android:anim/linear_interpolator"
-        android:toXDelta="0%"
+        android:toXDelta="0%" //To his original position
         android:toYDelta="0%"></translate>
 
     <!--Fade Out-->
