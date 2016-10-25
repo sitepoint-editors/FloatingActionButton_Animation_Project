@@ -16,11 +16,11 @@
     <!--Move-->
     <translate
         android:duration="1000"
-        android:fromXDelta="170%"
-        android:fromYDelta="25%"
+        android:fromXDelta="0%"
+        android:fromYDelta="0%"
         android:interpolator="@android:anim/linear_interpolator"
-        android:toXDelta="0%"
-        android:toYDelta="0%"></translate>
+        android:toXDelta="170%" //Where you want to move the item
+        android:toYDelta="25%"></translate>
 
     <!--Fade In-->
     <alpha
